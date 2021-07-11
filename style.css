@@ -36,13 +36,14 @@ body {
     justify-content: center;
 }
 .sneaker img{
-    width: 35rem;
+    width: 30rem;
     z-index: 2;
     transition: all 0.75s ease-out;
 }
 .circle{
-    width: 15rem;
-    height: 15rem;
+    margin-top: 1rem;
+    width: 25rem;
+    height: 25rem;
     background: linear-gradient(
         to right,
         rgba(192, 24, 24, 0.75),
@@ -53,6 +54,7 @@ body {
     z-index: 1;
 }
 .info h1{
+    margin-top: 5rem;
     font-size: 3rem;
     transition: all 0.75s ease-out;
 }

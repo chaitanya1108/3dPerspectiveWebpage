@@ -2,7 +2,7 @@ const card = document.querySelector('.card');
 const container = document.querySelector('.container');
 const title = document.querySelector('.title');
 const sneaker = document.querySelector('.sneaker img');
-const purchase = document.querySelector('.purchase button');
+const purchase = document.querySelector('.purchase');
 const sizes = document.querySelector('.sizes');
 const info = document.querySelector('.info h5');
 
@@ -20,7 +20,7 @@ container.addEventListener('mouseenter', (e) =>{
     sneaker.style.transform = 'translateZ(200px) rotateZ(-45deg)';
     info.style.transform = 'translateZ(125px)';
     sizes.style.transform = 'translateZ(100px)';
-    purchase.style.transform = 'translateZ(75px)';
+    purchase.style.transform = 'translateZ(55px)';
 })
 //amimate out
 container.addEventListener('mouseleave', (e) =>{
